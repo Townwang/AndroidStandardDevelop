@@ -746,7 +746,7 @@ public class MyClass {
 ### 5 版本统一规范
 
 Android开发存在着众多版本的不同，比如`compileSdkVersion`、`minSdkVersion`、`targetSdkVersion`以及项目中依赖第三方库的版本，不同的module及不同的开发人员都有不同的版本，所以需要一个统一版本规范的文件。
-
+ **依赖配置包configLibrary中统一控制，包括各种依赖库**
 具体可以参考我写的这篇博文～**[Android开发之版本统一规范][Android开发之版本统一规范]**
 
 
@@ -1018,17 +1018,6 @@ AS已帮你集成了一些注释模板，我们只需要直接使用即可，在
 [Google Java编程风格指南][Google Java编程风格指南]
 
 [小细节，大用途，35 个 Java 代码性能优化总结！][小细节，大用途，35 个 Java 代码性能优化总结！]
-
-
-## 版本日志
-
-* 17/03/06: 发布初版 ；
-* 17/03/07: 修订目录排版，完善某些细节；
-* 17/03/08: 规范排版，修复typor及新增一些规范；
-* 17/03/13: 新增其他注释；
-* 17/03/14: 包名划分为按功能划分；
-
-　　　　　　　　　　　　　　　——powered by Blankj(蔡梦杰)
 
 [Package by features, not layers]: https://medium.com/@cesarmcferreira/package-by-features-not-layers-2d076df1964d#.mp782izhh
 [iosched]: https://github.com/google/iosched/tree/master/android/src/main/java/com/google/samples/apps/iosched
